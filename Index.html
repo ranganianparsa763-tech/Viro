@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>معلم هوش مصنوعی | یادگیری طراحی سایت</title>
+  <meta name="description" content="معلم هوش مصنوعی برای یادگیری HTML و CSS - همراه همیشگی شما در مسیر طراحی سایت" />
+
+  <!-- Open Graph (برای پیش‌نمایش در تلگرام/شبکه‌های اجتماعی) -->
+  <meta property="og:title" content="معلم هوش مصنوعی | طراحی سایت" />
+  <meta property="og:description" content="یادگیری HTML و CSS با کمک هوش مصنوعی" />
+  <meta property="og:image" content="images/thumbnail.jpg" />
+  <meta property="og:type" content="website" />
+
+  <!-- فونت -->
+  <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/logo.png" type="image/png" />
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="header">
+    <nav class="nav container">
+      <a href="#" class="logo">
+        <img src="images/logo.png" alt="لوگو" />
+        <span>معلم AI</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#home">خانه</a></li>
+        <li><a href="#features">امکانات</a></li>
+        <li><a href="#about">درباره</a></li>
+        <li><a href="#contact">تماس</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-primary">شروع یادگیری</a>
+    </nav>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <span class="badge">✨ دستیار هوشمند شما</span>
+        <h1>با <span class="gradient">معلم هوش مصنوعی</span> طراحی سایت رو حرفه‌ای یاد بگیر</h1>
+        <p>یادگیری HTML و CSS با پاسخ فوری به سوالات، تصحیح تکلیف‌ها و مسیر یادگیری شخصی‌سازی‌شده.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">همین حالا شروع کن</a>
+          <a href="#features" class="btn btn-ghost">مشاهده امکانات</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="images/hero.png" alt="معلم هوش مصنوعی" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Features ===== -->
+  <section class="features section" id="features">
+    <div class="container">
+      <h2 class="section-title">چرا معلم هوش مصنوعی؟</h2>
+      <p class="section-sub">ابزارهایی که یادگیری طراحی سایت رو ساده و لذت‌بخش می‌کنه</p>
+      <div class="features-grid">
+        <article class="card">
+          <img src="images/feature-1.png" alt="چت هوشمند" />
+          <h3>چت هوشمند</h3>
+          <p>هر سوال HTML یا CSS داشتی، ۲۴ ساعته جواب می‌گیری.</p>
+        </article>
+        <article class="card">
+          <img src="images/feature-2.png" alt="تصحیح تکلیف" />
+          <h3>تصحیح تکلیف</h3>
+          <p>کدت رو بفرست و بازخورد دقیق و مرحله‌به‌مرحله بگیر.</p>
+        </article>
+        <article class="card">
+          <img src="images/feature-3.png" alt="مسیر یادگیری" />
+          <h3>مسیر یادگیری</h3>
+          <p>برنامه شخصی‌سازی‌شده بر اساس سطح و سرعت یادگیریت.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section class="about section" id="about">
+    <div class="container about-inner">
+      <div class="about-image">
+        <img src="images/about.jpg" alt="درباره معلم" />
+      </div>
+      <div class="about-text">
+        <h2>درباره معلم</h2>
+        <p>معلم هوش مصنوعی با تمرکز بر آموزش گام‌به‌گام HTML و CSS طراحی شده تا هر کسی، از مبتدی تا پیشرفته، بتونه سایت دلخواهش رو بسازه.</p>
+        <ul class="check-list">
+          <li>آموزش تصویری و پروژه‌محور</li>
+          <li>بازخورد فوری روی کدها</li>
+          <li>پشتیبانی از زبان فارسی</li>
+          <li>بدون محدودیت زمانی</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <h2 class="section-title">شروع کن!</h2>
+      <p class="section-sub">ایمیلت رو وارد کن، اولین درس برات ارسال می‌شه</p>
+      <form class="contact-form" id="contactForm" novalidate>
+        <input type="email" id="email" placeholder="ایمیل شما" required />
+        <button type="submit" class="btn btn-primary">ارسال</button>
+        <p class="form-msg" id="formMsg"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© ۲۰۲۵ معلم هوش مصنوعی — پروژه درس طراحی سایت</p>
+      <p>طراح: <strong>اسم شما</strong></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+  </html>
